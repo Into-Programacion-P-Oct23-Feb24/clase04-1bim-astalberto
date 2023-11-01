@@ -31,6 +31,9 @@ public class Ejemplo2 {
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
+            /* Agregamos una limpieza de buffer despues de pedir un valor numerico y
+            despues se requiera pedir una cadena, ya que cuando se pide un valor numerico
+            se da un salto de linea que puede causar errores*/
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
